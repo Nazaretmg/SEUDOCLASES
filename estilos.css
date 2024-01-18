@@ -1,0 +1,44 @@
+li a:link{
+	color: red;
+}
+
+li a:visited{
+	color: green;
+}
+
+li a:hover{
+	color: orange;
+}
+
+div.foto{
+	background-image: url("img/img1.jpg");
+	width: 400px;
+	height: 200px;
+	background-size: cover;
+}
+
+div.foto:hover{
+	background-image: url(img/img2.jpg);
+}
+
+button{
+	font-family: arial;
+	background-color: purple;
+	color: white;
+	border: 3px solid orange;
+	font-size: 20px;
+	border-radius: 12px 4px 12px 4px;
+
+
+}
+
+button:hover{
+	font-family: arial;
+	background-color: pink;
+	color: black;
+	border: 3px solid red;
+	font-size: 20px;
+	border-radius: 12px 4px 12px 4px;
+
+
+}
